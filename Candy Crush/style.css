@@ -1,0 +1,47 @@
+.grid {
+    height: 560px;
+    width: 560px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: pink;    
+    opacity: 0.8;
+    border-radius: 25px;
+    border: 5px solid red;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px; 
+}
+
+body{
+    background-image: url('/Users/raysamorel/Desktop/Personal Python Projects/Candy Crush/Images/cnadycrush-background.jpeg');
+}
+
+.grid-board {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 100px;
+}
+
+.score-board {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#score {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+    flex-flow: row nowrap;
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
